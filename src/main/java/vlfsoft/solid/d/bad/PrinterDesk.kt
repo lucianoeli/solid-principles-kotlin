@@ -6,7 +6,6 @@ import vlfsoft.principles.moduleclass.DependencyInversionPrinciple
 @DependencyInversionPrinciple.Implementation.HighLevelModule
 class PrinterDesk(private val printer: DotMatrixPrinterPrinter) {
 
-
     fun printFile() {
         printer.print("File Content")
     }
